@@ -1,3 +1,15 @@
-// Define the numbers and the operation here
+let firstNumber = 3;
+let secondNumber = 2;
+let operator = "*";
+let answer;
 
-// Write if-statements here
+if (operator === "+") {
+  answer = firstNumber + secondNumber;
+} else if (operator === "-") {
+  answer = firstNumber - secondNumber;
+} else if (operator === "/") {
+  answer = firstNumber / secondNumber;
+} else if (operator === "*") {
+  answer = firstNumber * secondNumber;
+}
+console.log(answer);
